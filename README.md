@@ -19,4 +19,10 @@ o — tslib.es6.js:117
 (anonymous function) — ExecutorBase.js:117:98
 r — tslib.es6.js:118
 
+openssl req -newkey rsa:2048 -nodes -keyout private_key.pem -x509 -days 365 -out certificate.crt
+
+
+openssl pkcs12 -export -out certificate.p12 -inkey private_key.pem -in certificate.crt -name "My Certificate"
+
+
 	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
