@@ -24,5 +24,8 @@ openssl req -newkey rsa:2048 -nodes -keyout private_key.pem -x509 -days 365 -out
 
 openssl pkcs12 -export -out certificate.p12 -inkey private_key.pem -in certificate.crt -name "My Certificate"
 
+openssl pkcs12 -info -in certificate.p12
+
+
 
 	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
