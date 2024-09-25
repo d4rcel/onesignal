@@ -55,6 +55,9 @@ Unhandled Promise Rejection: TypeError: i.showNotification is not a function. (I
 [Error] n: processSubscriptionModel: missing onesignalId: {"subscribers":{},"modelName":"pushSubscriptions","modelId":"9is2o5u318","data":{"type":"SafariLegacyPush","token":"13310fb2d4b0611ca84fa500b2c5e4cfa6f683d56c60e51296518788e5dd3fa7","enabled":true,"notification_types":1,"sdk":"160202","device_model":"MacIntel","device_os":17.06},"awaitOneSignalIdAvailable":{}}
 	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
 
+[Error] Unhandled Promise Rejection: TypeError: i.showNotification is not a function. (In 'i.showNotification(e,o)', 'i.showNotification' is undefined)
+[Error] n: processSubscriptionModel: missing onesignalId: {"subscribers":{},"modelName":"pushSubscriptions","modelId":"cdv6iaxgvj8","data":{"type":"SafariLegacyPush","token":"13310fb2d4b0611ca84fa500b2c5e4cfa6f683d56c60e51296518788e5dd3fa7","enabled":true,"notification_types":1,"sdk":"160202","device_model":"MacIntel","device_os":17.06},"awaitOneSignalIdAvailable":{}}
+	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
 
 
 	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
