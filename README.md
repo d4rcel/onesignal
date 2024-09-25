@@ -47,5 +47,14 @@ Unhandled Promise Rejection: add-to-cache-list-conflicting-entries: add-to-cache
 Unhandled Promise Rejection: TypeError: i.showNotification is not a function. (In 'i.showNotification(e,o)', 'i.showNotification' is undefined)
 
 
+[Error] Failed to load resource: the server responded with a status of 400 (Bad Request) (users, line 0)
+[Error] Error hydrating user: TypeError: Right side of assignment cannot be destructured
+	hydrateUser (OneSignalSDK.page.es6.js:1:212502)
+	(anonymous function) (OneSignalSDK.page.es6.js:1:68539)
+	r (OneSignalSDK.page.es6.js:1:263471)
+[Error] n: processSubscriptionModel: missing onesignalId: {"subscribers":{},"modelName":"pushSubscriptions","modelId":"9is2o5u318","data":{"type":"SafariLegacyPush","token":"13310fb2d4b0611ca84fa500b2c5e4cfa6f683d56c60e51296518788e5dd3fa7","enabled":true,"notification_types":1,"sdk":"160202","device_model":"MacIntel","device_os":17.06},"awaitOneSignalIdAvailable":{}}
+	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
+
+
 
 	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
