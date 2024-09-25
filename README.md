@@ -42,5 +42,8 @@ o — tslib.es6.js:117
 r — tslib.es6.js:118
 
 
+Unhandled Promise Rejection: add-to-cache-list-conflicting-entries: add-to-cache-list-conflicting-entries :: [{"firstEntry":"https://onesignaltest-e8bc0.web.app/pwa-192x192.png?__WB_REVISION__=c89ec76ca9517148dba9dad0935931cd","s...
+
+
 
 	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
