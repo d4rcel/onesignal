@@ -26,6 +26,21 @@ openssl pkcs12 -export -out certificate.p12 -inkey private_key.pem -in certifica
 
 openssl pkcs12 -info -in certificate.p12
 
+Error: Push notification prompting has been disabled.
+requestPermission
+(anonymous function) — SubscriptionManager.js:258
+Promise
+e — SubscriptionManager.js:257
+(anonymous function) — tslib.es6.js:121
+Promise
+o — tslib.es6.js:117
+(anonymous function) — SubscriptionManager.js:301
+(anonymous function) — tslib.es6.js:121
+Promise
+o — tslib.es6.js:117
+(anonymous function) — SubscriptionManager.js:91
+r — tslib.es6.js:118
+
 
 
 	(anonymous function) (OneSignalSDK.page.es6.js:1:205939)
